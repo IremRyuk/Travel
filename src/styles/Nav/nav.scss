@@ -1,0 +1,120 @@
+.nav{
+    position: relative;
+    left: 0%;
+    top: 0%;
+    width: 95vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 10;
+}
+.nav-name{
+    width: 200px;
+    height: 50px;
+}
+.nav-header{
+    width: 100%;
+    height: 100%;
+    font-size: xx-large;
+    margin: 0px;
+    text-align: center;
+    font-weight: 500;
+}
+.nav-a{
+    text-decoration: none;
+    color: white;
+}
+.nav-menu{
+    margin-right: 50px;
+    width: 40vw;
+    height: 50px;
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+.nav-li{
+    font-size: x-large;
+    font-weight: bold;
+    align-items: center;
+    margin: 0px;
+    transition: 0.4s;
+    border-radius: 2.4mm;
+}
+.nav-li:hover{
+    padding: 10px;
+    background-color: aqua;
+}
+// mini
+.button{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    display: none;
+    background-color: rgb(17, 227, 255);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2.4mm;
+    .fa-bars{
+        font-size: 30px;
+    }
+}
+.nav-menu-mini{
+    position: absolute;
+    display: none;
+    right: 2%;
+    top: 70%;
+    width: 100px;
+    height: 200px;
+    transition: 0.4s;
+}
+.nav-ul-mini{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    list-style:none;
+    line-height: 70px;
+}
+.na-li-mini{
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+}
+.nav-li-mini:hover{
+    background-color: aqua;
+    transition: 0.4s;
+    border-radius: 4mm;
+    width: max-content;
+    .nav-a{
+        margin: 0px;
+    color: white;
+    padding: 10px;
+    }
+}
+// media
+@media screen and (max-width:1200px) {
+    .nav{
+        width: 80vw;
+    }
+}
+@media screen and (max-width:1000px) {
+    .nav-menu{
+        display: none;
+    }
+    .button{
+        display: block;
+
+    }
+}
+@media screen and (max-width:700px) {
+.nav{
+    width: 90vw;
+}
+}
