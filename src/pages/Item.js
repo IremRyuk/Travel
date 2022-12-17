@@ -12,7 +12,7 @@ export default function Item(props) {
     let info = props.main
     return (
         <>
-        <Link to={`/buy/${info.id}`} className="as">
+        <Link to={`/buy/${info.id}`} style={{textDecoration:'none',width:'min-content',height:'min-content'}}>
         <div className='item'>
             <center>
                 <p className='item-p'>{info.name}</p>
