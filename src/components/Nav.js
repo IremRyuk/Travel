@@ -16,7 +16,7 @@ export default function Nav() {
         setHide(!hideIt)
     }
     if(hideIt){
-        $('.nav-menu-mini').css({display:'block'})
+        $('.nav-menu-mini').css({display:'flex'})
     }else if(!hideIt){
         $('.nav-menu-mini').css({display:'none'})
     }
@@ -30,7 +30,7 @@ export default function Nav() {
             <ul className='nav-ul'>
                 <li className='nav-li'><Link className='nav-a' to='/'>Home</Link></li>
                 <li className='nav-li'><Link className='nav-a' to='/country'>Country</Link></li>
-                <li className='nav-li'><Link className='nav-a' to='/contact'>Contact Us</Link></li>
+                <li className='nav-li'><Link className='nav-a' to='/contact'>Contacts</Link></li>
             </ul>
         </div>
         <button className='button' onClick={()=>{hide()}}><i className="fa-solid fa-bars" /></button>
@@ -38,7 +38,7 @@ export default function Nav() {
             <ul className='nav-ul-mini'>
                 <li className='nav-li-mini'><Link className='nav-a' to='/'>Home</Link></li>
                 <li className='nav-li-mini'><Link className='nav-a' to='/country'>Country</Link></li>
-                <li className='nav-li-mini'><Link className='nav-a' to='/contact'>Contact Us</Link></li>
+                <li className='nav-li-mini'><Link className='nav-a' to='/contact'>Contacts</Link></li>
             </ul>
         </div>}
     </div>

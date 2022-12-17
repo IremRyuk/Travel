@@ -159,6 +159,20 @@
         border-radius: 2.4mm;
         margin: 10px;
     }
+    .coun-search{
+        width: 30vw;
+        height: 4vh;
+    }
+    .coun-inp{
+        width: 100%;
+        height: 100%;
+        font-size: medium;
+        padding-left:10px;
+        padding-right: 10px;
+    }
+    .coun-inp:focus{
+        outline: none;
+    }
 }
 @media screen and (max-width:800px) {
     .item{
@@ -173,5 +187,27 @@
         width: 70vw;
         height: 70vh;
 
+    }
+    .categories{
+        width: 50vw;
+    }
+}
+@media screen and (max-width:600px) {
+    .coun-search{
+        width: 40vw;
+        height: 4vh;
+    }
+    .coun-inp{
+        width: 100%;
+        height: 100%;
+        font-size: medium;
+        padding-left:10px;
+        padding-right: 10px;
+    }
+    .coun-inp:focus{
+        outline: none;
+    }    
+    .categories{
+        width: 70vw;
     }
 }

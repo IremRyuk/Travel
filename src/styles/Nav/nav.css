@@ -1,3 +1,8 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
 .nav {
   position: relative;
   left: 0%;
@@ -61,13 +66,22 @@
   right: 5%;
   top: 5%;
   display: none;
-  background-color: rgb(17, 227, 255);
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0);
   border: none;
-  padding: 10px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  padding: 5px;
   cursor: pointer;
   border-radius: 2.4mm;
 }
 .button .fa-bars {
+  color: white;
   font-size: 30px;
 }
 
@@ -77,8 +91,12 @@
   right: 2%;
   top: 70%;
   width: 100px;
-  height: 200px;
+  background-color: rgba(0, 188, 213, 0.6);
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
   transition: 0.4s;
+  border-radius: 4mm;
 }
 
 .nav-ul-mini {
@@ -91,25 +109,34 @@
   line-height: 70px;
 }
 
-.na-li-mini {
+.nav-li-mini {
   margin-top: 10px;
-  font-size: large;
+  font-size: medium;
   font-weight: bold;
   align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
 }
 
 .nav-li-mini:hover {
   background-color: aqua;
   transition: 0.4s;
-  border-radius: 4mm;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
+  border-radius: 2mm;
 }
 .nav-li-mini:hover .nav-a {
-  margin: 0px;
-  color: white;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  color: black;
 }
 
 @media screen and (max-width: 1200px) {
@@ -118,6 +145,10 @@
   }
 }
 @media screen and (max-width: 1000px) {
+  .nav {
+    width: 80vw;
+    justify-content: space-between;
+  }
   .nav-menu {
     display: none;
   }
@@ -128,5 +159,56 @@
 @media screen and (max-width: 700px) {
   .nav {
     width: 90vw;
+  }
+  .nav-li-mini {
+    margin-top: 10px;
+    font-size: small;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+  }
+  .nav-li-mini:hover {
+    background-color: aqua;
+    transition: 0.4s;
+    border-radius: 2mm;
+    margin: 0px;
+  }
+  .nav-li-mini:hover .nav-a {
+    width: 70px;
+    height: 30px;
+    margin: 0px;
+    color: black;
+  }
+}
+@media screen and (max-width: 500px) {
+  .nav {
+    width: 90vw;
+  }
+  .nav-li-mini {
+    margin-top: 10px;
+    font-size: small;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    width: 100px;
+    height: 30px;
+  }
+  .nav-li-mini:hover {
+    background-color: aqua;
+    transition: 0.4s;
+    border-radius: 2mm;
+    margin: 0px;
+  }
+  .nav-li-mini:hover .nav-a {
+    width: 70px;
+    height: 30px;
+    margin: 0px;
+    color: black;
   }
 }/*# sourceMappingURL=nav.css.map */

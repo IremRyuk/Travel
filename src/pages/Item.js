@@ -12,7 +12,7 @@ export default function Item(props) {
     let info = props.main
     return (
         <>
-        <Link to={`/buy/${info.id}`} style={{textDecoration:'none'}}>
+        <Link to={`/buy/${info.id}`} className="as">
         <div className='item'>
             <center>
                 <p className='item-p'>{info.name}</p>
@@ -23,7 +23,7 @@ export default function Item(props) {
             </center>
         </div>
         </Link>
-        {resizeItem<=800 && <Link to={`/buy/${info.id}`} style={{textDecoration:'none'}}><div className='item-mini'>
+        {resizeItem<=800 && <Link to={`/buy/${info.id}`} style={{textDecoration:'none',width:'min-content',height:'min-content'}}><div className='item-mini'>
         <center>
             <p className='item-p-mini'>{info.name}</p>
             <img src={info.img} className="item-img-mini" alt={info.name}/>
