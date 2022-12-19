@@ -105,6 +105,7 @@
   border-radius: 2.4mm;
   cursor: pointer;
   transition: 0.2s;
+  padding: 2px;
 }
 .con-form-btnA:hover {
   background-color: red;
@@ -122,6 +123,7 @@
   border-radius: 2.4mm;
   cursor: pointer;
   transition: 0.3s;
+  padding: 2px;
 }
 .con-form-btnB:hover {
   background-color: rgb(0, 255, 0);
