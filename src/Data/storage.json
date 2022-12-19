@@ -41,11 +41,24 @@
         "img": "https://www.cloud-europamundo.com/img/carousel/big/Estambul_20201221135151.jpg",
         "price": 1050,
         "category": "nature"
-    },{
+    }, {
         "id": 9,
+        "name": "germany",
+        "img": "https://spectrum.ieee.org/media-library/photo-of-a-village-with-windmills-in-the-background.jpg?id=25536224&width=400&height=300",
+        "price": 450,
+        "category": "nature"
+    }, {
+        "id": 10,
         "name": "china",
-        "img": "https://hwmiia.fra1.digitaloceanspaces.com/wp-content/uploads/2015/12/06130003/Shanghai-china-600x300.jpg",
+        "img": "https://digitalnomads.world/wp-content/uploads/2021/11/shanghai-digital-nomads-1024x683.jpg",
         "price": 2750,
         "category": "nature"
+    },
+    {
+        "id": 4,
+        "name": "australia",
+        "img": "https://southpacificbydesign.com/upload-images/australia-rail-wine-the-outback-reef-7-mobile.jpg",
+        "price": 2550,
+        "category": "sea"
     }
 ]
