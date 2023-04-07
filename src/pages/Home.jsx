@@ -76,7 +76,7 @@ export default function Home() {
             <a href='tel:+512 678 123' className='bot-glph'>Tel: +512 678 123</a>
             <br />
             <br />
-            <a href='mailto:travel@gmail.com' className='bot-glph'>Gmail: travel@gmail.com</a>
+            <a href='mailto:hv-travel@gmail.com' className='bot-glph'>Gmail: travel@gmail.com</a>
         </div>s
         <div className='bto-socials'>
                 <a href='https://www.facebook.com/' target="_blank" rel="noreferrer" className='socials-links'><img src={FB} className='social-imgs' alt='Travel Social Icons'/></a>

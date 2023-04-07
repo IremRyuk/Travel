@@ -35,7 +35,7 @@ $('.ghost-p').text('Your Information Sent')
 
     let buyFail = () =>{
 $('.ghost').css({backgroundColor:'red',right:'10%'})
-$('.ghost-p').text('Please Fill All Inputss')
+$('.ghost-p').text('Please Fill All Inputs')
   }
   $('.ghost').on('click',()=>{
     $('.ghost').css({right:'-50%'})
