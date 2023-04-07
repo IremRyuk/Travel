@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react'
+import React, { useEffect, useReducer } from 'react'
 import { useParams } from 'react-router-dom'
 import '../styles/Buy/buy.css'
 import Data from '../Data/storage.json'
@@ -10,6 +10,12 @@ export default function Buy() {
   // Initial Values useReducer
   const [state,dispatch] = useReducer(BuyReducer,Buy_Initial_Values)
 
+// get Item description in Title
+useEffect(()=>{
+  let word = main.name
+let firstLetterBig = word.charAt(0).toUpperCase() + word.slice(1)
+  document.title = firstLetterBig
+},[])
 
   // get data and filter 
   let {Id} = useParams()
