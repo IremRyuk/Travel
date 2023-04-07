@@ -29,7 +29,7 @@ $('.ghost').css({backgroundColor:'lime',right:'10%'})
 $('.ghost-p').text('Your Information Sent')
   }
   $('.ghost').on('click',()=>{
-    $('.ghost').css({right:'-50%'})
+    $('.ghost').css({right:'-100%'})
   })
   
 
@@ -38,7 +38,7 @@ $('.ghost').css({backgroundColor:'red',right:'10%'})
 $('.ghost-p').text('Please Fill All Inputs')
   }
   $('.ghost').on('click',()=>{
-    $('.ghost').css({right:'-50%'})
+    $('.ghost').css({right:'-100%'})
   })
   
 
@@ -113,7 +113,7 @@ let newPersonInformation = new BuyTravel(state.bookName,state.bookGmail,state.bo
         </center>
       </div>
       </div>
-      <div className='ghost' onClick={()=>{$('.ghost').css({right:'-50%'})}}>
+      <div className='ghost' onClick={()=>{$('.ghost').css({right:'-100%'})}}>
         <p className='ghost-p'></p>
       </div>
     </div>

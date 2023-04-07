@@ -145,7 +145,7 @@ input::-webkit-inner-spin-button {
   position: absolute;
   display: block;
   bottom: 10%;
-  right: -50%;
+  right: -100%;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
