@@ -19,7 +19,6 @@ export default function Country() {
             } else {
                 return res.category === state.place
             }
-
         }))
     }
     // Price Filter
