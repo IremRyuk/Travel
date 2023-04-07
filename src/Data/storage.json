@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "georgia",
+        "img": "https://cdn2.ipn.ge/media/__thumbs__/photo/internetis-suratebi555/chexeti.webp",
+        "price": 1050,
+        "category": "nature"
+    }, {
+        "id": 2,
+        "name": "italy",
+        "img": "http://www.italytravel.com/wp-content/uploads/2012/06/italy-in-summer.jpg",
+        "price": 2000,
+        "category": "nature"
+    }, {
+        "id": 3,
+        "name": "spain",
+        "price": 750,
+        "img": "https://www.aavluxurytravel.com/wp-content/uploads/2021/02/shutterstock_613438022-400x300.jpg",
+        "category": "sea"
+    }, {
+        "id": 5,
+        "name": "france",
+        "price": 870,
+        "img": "https://static.toiimg.com/thumb/msid-76257882,width-400,resizemode-4/76257882.jpg",
+        "category": "nature"
+    }, {
+        "id": 6,
+        "name": "switzerland",
+        "img": "https://sites.google.com/a/middleschoolkcd.org/switzerland-europe-project/_/rsrc/1456797182852/physical-geography/Swiss_Alps.jpg?height=300&width=400",
+        "price": 450,
+        "category": "snow"
+    }, {
+        "id": 7,
+        "name": "thailand",
+        "price": 250,
+        "img": "https://static.toiimg.com/thumb/94176849.cms?resizemode=4&width=400",
+        "category": "sea"
+    }, {
+        "id": 8,
+        "name": "turkey",
+        "img": "https://fanack.com/wp-content/uploads/2020/06/istanbul-OZAN-KOSE_AFP_1024PX.jpg",
+        "price": 1050,
+        "category": "nature"
+    }, {
+        "id": 9,
+        "name": "germany",
+        "img": "https://spectrum.ieee.org/media-library/photo-of-a-village-with-windmills-in-the-background.jpg?id=25536224&width=400&height=300",
+        "price": 450,
+        "category": "nature"
+    }, {
+        "id": 10,
+        "name": "china",
+        "img": "https://digitalnomads.world/wp-content/uploads/2021/11/shanghai-digital-nomads-1024x683.jpg",
+        "price": 2750,
+        "category": "nature"
+    },
+    {
+        "id": 4,
+        "name": "australia",
+        "img": "https://australiayourway.com/wp-content/uploads/2020/06/South-Port-Beach-boardwalk-at-sunset-Port-Noarlunga-South-Australia.jpg",
+        "price": 2550,
+        "category": "sea"
+    }
+]

@@ -1,0 +1,252 @@
+@import '../defaults/defaults.scss';
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+// hide arrows in input:number
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+// input date(calendate) color change to white
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+// values
+$color:#00ffe7;
+$descrFont:'Alkatra', cursive;
+$purple:rgb(255, 0, 238);
+
+// Buy page
+.buy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+.buy-backdrop {
+    width: 90%;
+    height: 80%;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+// left side desc
+.leftSide {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.buy-p {
+    font-size: x-large;
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.buy-image {
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+    background-color: transparent;
+}
+
+// right side desc
+.rightSide {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 7mm;
+    line-height: 5vh;
+    padding: 10px 0px;
+}
+.rightSideHeader {
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+}
+.bookP {
+    font-size: larger;
+    color: white;
+    // border: 2px solid green;
+}
+.bookInp {
+    width: 60%;
+    font-size: x-large;
+    border: none;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    padding: 5px 10px;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid white;
+    border-radius: 2.4mm;
+    transition: 0.4s;
+    &:hover {
+        width: 70%;
+    }
+    &:focus {
+        border-top: 3px solid white;
+        width: 75%;
+    }
+}
+.bookBtns {
+    width: 100%;
+@include displayFlex;
+    .bookBtnClear {
+        @include btnProp;
+        border: 1px solid red;
+        &:hover {
+            background-color: red;
+            box-shadow: 0 0 10px red;
+        }
+    }
+    .bookBtnSend {
+        @include btnProp;
+        border: 1px solid lime;
+        &:hover {
+            background-color: lime;
+            box-shadow: 0 0 10px lime;
+        }
+    }
+}
+
+
+// ghost
+.ghost {
+    position: absolute;
+    display: block;
+    bottom: 10%;
+    right: -50%;
+    width: fit-content;
+    height: min-content;
+    border-radius: 2.4mm;
+    padding: 20px 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.ghost-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+// resize
+
+@media screen and (max-width:1440px) {
+    .buy-backdrop {
+        width: 99%;
+    }
+    .rightSideHeader {
+        font-size: larger;
+        color: white;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .leftSide {
+        width: 45%;
+    }
+    .rightSide {
+        width: 50%;
+        line-height: 4vh;
+    }
+    .bookP {
+        font-size: medium;
+    }
+    .bookInp {
+        width: 70%;
+        font-size: large;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .buy{
+        top: 15%;
+        height: auto;
+    }
+    .buy-backdrop {
+        width: 99%;
+        height: min-content;
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+        padding: 10px 0px;
+    }
+    .leftSide{
+        width: 95%;
+    }
+    .rightSide{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .rightSideHeader{
+        font-size: medium;
+    }
+    .bookP {
+        font-size: small;
+    }
+    .bookInp {
+        width: 80%;
+        font-size: medium;
+        &:hover {
+            width: 80%;
+        }
+        &:focus {
+            border-top: 3px solid white;
+            width: 80%;
+        }
+    }
+    // btns
+    .bookBtns {
+        width: 100%;
+    @include displayFlex;
+        .bookBtnClear {
+            @include btnProp;
+            border: 2px solid red;
+            &:hover {
+                background-color: transparent;
+                box-shadow: 0 0 10px transparent;
+            }
+        }
+        .bookBtnSend {
+            @include btnProp;
+            border: 2px solid lime;
+            &:hover {
+                background-color: transparent;
+                box-shadow: 0 0 10px transparent;
+            }
+        }
+    }
+    
+}

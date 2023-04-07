@@ -1,0 +1,163 @@
+* {
+    ::-webkit-input-placeholder {
+        color: white;
+    }
+}
+// main contact
+.contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+}
+// contact backdrop
+.contact-backdrop {
+    position: absolute;
+    top: 15%;
+    width: 90%;
+    height: min-content;
+    text-align: center;
+    backdrop-filter: blur(7px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+// form
+.contact-form {
+    width: 40%;
+    height: 80%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 5px;
+}
+// form title
+.con-form-p {
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    padding-left: 5px;
+}
+// inputs
+.con-form-input {
+    width: 40%;
+    border-radius: 1mm;
+    font-size: large;
+    color: white;
+    padding: 5px;
+    transition: 0.2s;
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid white;
+    &:hover {
+        border: 4px solid aqua;
+    }
+    &:focus {
+        outline: none;
+        border: none;
+        border-left: 5px solid aqua;
+    }
+}
+// textarea
+.con-form-textArea {
+    width: 80%;
+    height: 200px;
+    padding-left: 10px;
+    resize: none;
+    border: 4px solid white;
+    border-radius: 2.4mm;
+    font-size: x-large;
+    color: white;
+    background: transparent;
+    outline: none;
+    transition: 0.2s;
+}
+// form butons
+.form-btns {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+.con-form-btnA {
+    background-color: transparent;
+    color: white;
+    font-size: larger;
+    padding: 5px 20px;
+    border: 2px solid red;
+    border-radius: 2.4mm;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover {
+        background-color: red;
+        box-shadow: 0px 0px 20px red;
+    }
+}
+.con-form-btnB {
+    background-color: transparent;
+    color: white;
+    font-size: larger;
+    padding: 5px 20px;
+    border: 2px solid rgb(0, 255, 0);
+    border-radius: 2.4mm;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover {
+        background-color: rgb(0, 255, 0);
+        box-shadow: 0px 0px 20px rgb(0, 255, 0);
+    }
+}
+
+// right img
+.travel-cont-img-box {
+    width: 60%;
+    height: 100%;
+}
+.travel-cont-img {
+    width: 100%;
+    object-fit: contain;
+}
+// resize
+@media screen and (max-width:1300px) {
+    .con-form-input {
+        width: 70%;
+    }
+}
+@media screen and (max-width:1024px) {
+    .contact-form {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    // form title
+    .con-form-p {
+        text-align: center;
+        padding-left: 0px;
+    }
+    .travel-cont-img-box{
+        display: none;
+    }
+}
+@media screen and (max-width:425px) {
+    .contact-backdrop {
+        width: 99%;
+    }
+.con-form-input{
+    width: 90%;
+}
+.con-form-textArea{
+    width: 90%;
+}
+.form-btns{
+    justify-content: space-between;
+    width: 90%;
+}
+}
