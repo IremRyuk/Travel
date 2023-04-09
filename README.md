@@ -5,11 +5,10 @@ In this website you can see different countries , choose which one you like, sor
 
 ![HV-Travel2](https://user-images.githubusercontent.com/95693785/230594151-32659ba0-7610-49ae-99c9-eeff5c96b7da.PNG)
 
-
+- Website - https://ryukweb.netlify.app/shop
 
 ##### This Website is created with : FIGMA / HTML / CSS(SASS) / JAVASCRIPT(REACT.JS) / JQUERY and swiper.js
 
-- 🔭 I’m currently working on this page. 
 - 📫 How to reach me: giorgi.iremadze98@gmail.com 
 
 
