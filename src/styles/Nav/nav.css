@@ -6,12 +6,10 @@
 
 .nav {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0%;
+  left: 0%;
   width: 100vw;
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
+  height: 70px;
   display: flex;
   justify-content: space-evenly;
   background-color: rgba(84, 53, 82, 0.69);

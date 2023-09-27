@@ -4,9 +4,14 @@ import Data from '../Data/storage.json'
 import Item from './Item'
 import backImg from '../Photoes/background2.webp'
 import {Initial_Values, reudcer} from '../components/MainValues'
+import $ from 'jquery'
+import { useEffect } from 'react'
 
 export default function Country() {
     let [data, setData] = useState(Data)
+    useEffect(()=>{
+        $('.filter-search').hide()
+    },[])
     const [state, dispatch] = useReducer(reudcer, Initial_Values)
     let filter = (category) => setData(
         Data.filter(res => res.category === category)
@@ -34,7 +39,10 @@ const clearInputRanges = () =>{
 }
     return (
     <> 
-    <div className = 'country' > <div className='backdrop'>
+    <div className='country'>
+        <div className='backdrop'>
+            <center><button className='btnFilter' onClick={()=>$('.filter-search').toggle()}>Filter</button></center>
+            <main className='filter-search'>
         <center>
             <div className='coun-search'>
                 <input
@@ -82,6 +90,7 @@ const clearInputRanges = () =>{
             </div>
         </div>
         </center>
+        </main>
         {/* test */}
         <center>
         <select
@@ -108,12 +117,7 @@ const clearInputRanges = () =>{
                             return state.search
                         }
                     })
-                    .map(res =>< Item key = {
-                        res.id
-                    }
-                    main = {
-                        res
-                    } />)
+                    .map(res =>< Item key = {res.id} main = {res} />)
             }
         </div>
     </div>
