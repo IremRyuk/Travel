@@ -24,10 +24,9 @@ $purple:rgb(255, 0, 238);
 // Buy page
 .buy {
     position: absolute;
-    top: 0;
+    top: 80px;
     left: 0;
     width: 100vw;
-    height: 100vh;
     z-index: 5;
     display: flex;
     justify-content: center;
@@ -40,7 +39,7 @@ $purple:rgb(255, 0, 238);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
 }
 // left side desc
 .leftSide {
@@ -58,7 +57,7 @@ $purple:rgb(255, 0, 238);
     color: white;
     font-weight: 700;
     text-transform: capitalize;
-    text-align: center;
+    text-align: left;
 }
 
 .buy-image {
@@ -78,7 +77,7 @@ $purple:rgb(255, 0, 238);
     border: 2px solid white;
     border-radius: 7mm;
     line-height: 5vh;
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 .rightSideHeader {
     font-size: x-large;
@@ -167,18 +166,21 @@ $purple:rgb(255, 0, 238);
 
 
 @media screen and (max-width:1024px) {
+    .buy-backdrop {
+        justify-content: space-around;
+    }
     .leftSide {
         width: 45%;
     }
     .rightSide {
-        width: 50%;
+        width: 45%;
         line-height: 4vh;
     }
     .bookP {
         font-size: medium;
     }
     .bookInp {
-        width: 70%;
+        width: 95%;
         font-size: large;
     }
 }

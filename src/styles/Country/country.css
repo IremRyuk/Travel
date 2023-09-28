@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -31,15 +32,15 @@ input::-webkit-outer-spin-button {
   border-radius: 2mm;
   padding: 5px 10px;
   padding-bottom: 50px;
-  border: 2px solid red;
 }
 
 .btnFilter {
   border: none;
   background-color: purple;
   font-size: x-large;
+  font-family: "Lemonada", cursive;
   color: white;
-  padding: 8px 20%;
+  padding: 0px 20%;
   margin: 10px 0px;
   transition: 0.5s;
   cursor: pointer;
@@ -190,17 +191,20 @@ input::-webkit-outer-spin-button {
 .item {
   text-decoration: none;
   width: 95%;
-  height: 90%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   border: 1px solid white;
   border-radius: 2.4mm;
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
-  margin: 10%;
+  margin: 20px 0px;
+  padding: 10px;
   cursor: pointer;
   transition: 0.2s;
 }
 .item:hover {
-  border: 2px solid white;
+  border: 4px solid white;
   scale: 1.05;
 }
 

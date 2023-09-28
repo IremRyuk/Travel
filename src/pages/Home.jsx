@@ -9,17 +9,20 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import FB from '../Photoes/fb.webp'
-import IN from '../Photoes/in.webp'
-import TW from '../Photoes/tw.webp'
+import BottomSoc from '../components/BottomSoc'
 
 export default function Home() {
+    // Window width
     const [screenW,setScreen] = useState(window.innerWidth)
     useEffect(()=>{
         window.addEventListener('resize',()=>{
             setScreen(screen=>screen = window.innerWidth)
         })
     })
+    // Move Page Top
+    useEffect(()=>{
+window.scrollTo(0,0)
+    },[])
     // go to country page
     let navigate = useNavigate()
     const navigatHandler = () => {
@@ -71,19 +74,10 @@ export default function Home() {
             </Swiper>
         </div>
     </center>
-    <div className='h-bottom-info'>
-        <div className='gl-ph'>
-            <a href='tel:+512 678 123' className='bot-glph'>Tel: +512 678 123</a>
-            <br />
-            <br />
-            <a href='mailto:hv-travel@gmail.com' className='bot-glph'>Gmail: travel@gmail.com</a>
-        </div>s
-        <div className='bto-socials'>
-                <a href='https://www.facebook.com/' target="_blank" rel="noreferrer" className='socials-links'><img src={FB} className='social-imgs' alt='Travel Social Icons'/></a>
-                <a href='https://www.instagram.com/' target="_blank" rel="noreferrer" className='socials-links'><img src={IN} className='social-imgs' alt='Travel Social Icons'/></a>
-                <a href='https://www.twitter.com/' target="_blank" rel="noreferrer" className='socials-links'><img src={TW} className='social-imgs' alt='Travel Social Icons'/></a>
-            </div>
-    </div>
+
+{/* Bottom Social Information */}
+<BottomSoc />
+
 </div>
 <img src={MainBackgroundImage} className='backImg' alt='Travel Background'/> 
 </>

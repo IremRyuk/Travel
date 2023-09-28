@@ -6,12 +6,19 @@ import backImg from '../Photoes/background2.webp'
 import {Initial_Values, reudcer} from '../components/MainValues'
 import $ from 'jquery'
 import { useEffect } from 'react'
+import BottomSoc from '../components/BottomSoc'
 
 export default function Country() {
     let [data, setData] = useState(Data)
+    // Move Page Top
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    },[])
+    // Jquery Hide Filter Box
     useEffect(()=>{
         $('.filter-search').hide()
     },[])
+    // useReducer
     const [state, dispatch] = useReducer(reudcer, Initial_Values)
     let filter = (category) => setData(
         Data.filter(res => res.category === category)
@@ -121,6 +128,7 @@ const clearInputRanges = () =>{
             }
         </div>
     </div>
+    {/* Social Information */}
 </div>
 <img src={backImg} className='backImg' alt='Travel Background'/>
  </>

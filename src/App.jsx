@@ -9,7 +9,7 @@ import Home from './pages/Home'
 
 function App() {
   return (
-    <div>
+    <>
       <Nav />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
         <Route path='/country' element={<Country />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
-    </div>
+    </>
   )
 }
 

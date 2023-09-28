@@ -16,6 +16,10 @@ useEffect(()=>{
 let firstLetterBig = word.charAt(0).toUpperCase() + word.slice(1)
   document.title = firstLetterBig
 },[])
+// Move Page Top
+useEffect(()=>{
+  window.scrollTo(0,0)
+},[])
 
   // get data and filter 
   let {Id} = useParams()
@@ -88,6 +92,7 @@ let newPersonInformation = new BuyTravel(state.bookName,state.bookGmail,state.bo
       <p className='buy-p'>Name: {main.name}</p>
         <img src={main.img} alt={main.name} className='buy-image' /> 
         <p className='buy-p'>Category: <span className='buy-p'>{main.category}</span></p>
+        <p className='buy-p'>Description: {main.descr}</p>
         <p className='buy-p'>Price: {main.price} $</p>
       </div>
       <div className='rightSide'>

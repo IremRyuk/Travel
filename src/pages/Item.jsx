@@ -8,9 +8,9 @@ export default function Item(props) {
         <>
         <Link to={`/buy/${info.id}`} className='item'>
             <center>
-                <p className='item-p'>Name:{info.name}</p>
+                <p className='item-p'>Name: {info.name}</p>
                 <img src={info.img} className="item-img" alt={info.name}/>
-                <p className='item-p'>Price:{info.price}$</p>
+                <p className='item-p'>Price: {info.price}$</p>
             </center>
         </Link>
     </>

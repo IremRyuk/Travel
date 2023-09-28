@@ -12,6 +12,7 @@
   height: 70px;
   display: flex;
   justify-content: space-evenly;
+  transition: 0.2s;
   background-color: rgba(84, 53, 82, 0.69);
   padding: 10px;
   z-index: 10;
@@ -27,7 +28,6 @@
 .nav-a {
   text-decoration: none;
   color: white;
-  transition: 0.3s;
 }
 .nav-a:hover {
   color: rgb(255, 49, 238);
@@ -49,7 +49,6 @@
   font-weight: bold;
   align-items: center;
   margin: 0;
-  transition: 0.3s;
   border-radius: 2.4mm;
 }
 .nav-li:hover {
@@ -85,7 +84,6 @@
   width: 100px;
   background-color: rgba(84, 53, 82, 0.69);
   height: 100vh;
-  transition: 0.4s;
   filter: contrast(1);
 }
 
@@ -106,7 +104,6 @@
 }
 .nav-li-mini:hover {
   background-color: aqua;
-  transition: 0.4s;
   color: black;
   font-weight: 700;
 }
@@ -124,8 +121,8 @@
 }
 @media screen and (max-width: 500px) {
   .nav-li-mini {
-    margin-top: 10px;
-    font-size: small;
+    margin-top: 20px;
+    font-size: medium;
     font-weight: bold;
     align-items: center;
     display: flex;
@@ -137,7 +134,6 @@
   }
   .nav-li-mini:hover {
     background-color: aqua;
-    transition: 0.4s;
     margin: 0;
   }
   .nav-li-mini:hover .nav-a {

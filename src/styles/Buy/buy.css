@@ -15,10 +15,9 @@ input::-webkit-inner-spin-button {
 
 .buy {
   position: absolute;
-  top: 0;
+  top: 80px;
   left: 0;
   width: 100vw;
-  height: 100vh;
   z-index: 5;
   display: flex;
   justify-content: center;
@@ -33,7 +32,7 @@ input::-webkit-inner-spin-button {
           backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .leftSide {
@@ -51,7 +50,7 @@ input::-webkit-inner-spin-button {
   color: white;
   font-weight: 700;
   text-transform: capitalize;
-  text-align: center;
+  text-align: left;
 }
 
 .buy-image {
@@ -71,7 +70,7 @@ input::-webkit-inner-spin-button {
   border: 2px solid white;
   border-radius: 7mm;
   line-height: 5vh;
-  padding: 10px 0px;
+  padding: 20px 0px;
 }
 
 .rightSideHeader {
@@ -176,18 +175,21 @@ input::-webkit-inner-spin-button {
   }
 }
 @media screen and (max-width: 1024px) {
+  .buy-backdrop {
+    justify-content: space-around;
+  }
   .leftSide {
     width: 45%;
   }
   .rightSide {
-    width: 50%;
+    width: 45%;
     line-height: 4vh;
   }
   .bookP {
     font-size: medium;
   }
   .bookInp {
-    width: 70%;
+    width: 95%;
     font-size: large;
   }
 }
