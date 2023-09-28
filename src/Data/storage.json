@@ -2,73 +2,72 @@
     {
         "id": 1,
         "name": "georgia",
-        "descr":"Located at the crossroads of Western Asia, the Middle East and Eastern Europe, Georgia is an inspiring mix of diversity, rich history and breathtaking landscapes infused with towering Caucasus Mountains, romantic Black Sea beaches and fertile valleys blanketed in a pleasant Mediterranean climate.",
+        "descr": "Located at the crossroads of Western Asia, the Middle East and Eastern Europe, Georgia is an inspiring mix of diversity, rich history and breathtaking landscapes infused with towering Caucasus Mountains, romantic Black Sea beaches and fertile valleys blanketed in a pleasant Mediterranean climate.",
         "img": "https://cdn2.ipn.ge/media/__thumbs__/photo/internetis-suratebi555/chexeti.webp",
         "price": 1050,
         "category": "nature"
     }, {
         "id": 2,
         "name": "italy",
-        "descr":"It has beautiful scenery ranging from its scenic coastal areas to its colourful mountain ranges. It has a vast wealth of culture, architecture and ancient sites. It has modern cities that embody contemporary Italy, and don't forget Italy's gifts to the world's taste buds, its wonderful cuisine and wines.",
+        "descr": "It has beautiful scenery ranging from its scenic coastal areas to its colourful mountain ranges. It has a vast wealth of culture, architecture and ancient sites. It has modern cities that embody contemporary Italy, and don't forget Italy's gifts to the world's taste buds, its wonderful cuisine and wines.",
         "img": "http://www.italytravel.com/wp-content/uploads/2012/06/italy-in-summer.jpg",
         "price": 2000,
         "category": "nature"
     }, {
         "id": 3,
         "name": "spain",
-        "descr":"One of the most visited countries in Europe, Spain has several tourist attractions spread across its many cities. From beaches to mountains to historic monuments to churches and palaces, Spain has it all.",
+        "descr": "One of the most visited countries in Europe, Spain has several tourist attractions spread across its many cities. From beaches to mountains to historic monuments to churches and palaces, Spain has it all.",
         "price": 750,
         "img": "https://www.aavluxurytravel.com/wp-content/uploads/2021/02/shutterstock_613438022-400x300.jpg",
         "category": "sea"
     }, {
+        "id": 4,
+        "name": "australia",
+        "descr": "Popular Australian destinations include the coastal cities of Sydney, Brisbane and Melbourne, as well as other high-profile destinations including regional Queensland, the Gold Coast and the Great Barrier Reef, the world's largest reef.",
+        "img": "https://australiayourway.com/wp-content/uploads/2020/06/South-Port-Beach-boardwalk-at-sunset-Port-Noarlunga-South-Australia.jpg",
+        "price": 2550,
+        "category": "sea"
+    }, {
         "id": 5,
         "name": "france",
-        "descr":"The country has over 500,000 hotel rooms and more than 40,000 campsites, making it one of the largest hospitality industries in Europe. Paris is the most popular tourist destination in France, with over 33 million visitors in 2019.",
+        "descr": "The country has over 500,000 hotel rooms and more than 40,000 campsites, making it one of the largest hospitality industries in Europe. Paris is the most popular tourist destination in France, with over 33 million visitors in 2019.",
         "price": 870,
         "img": "https://static.toiimg.com/thumb/msid-76257882,width-400,resizemode-4/76257882.jpg",
         "category": "nature"
     }, {
         "id": 6,
         "name": "switzerland",
-        "descr":"Switzerland is a breathtakingly beautiful land-locked country in Central Europe with France to the west, Italy to the south, Austria to the east and Germany to the north. The country is famous for its scenic Alps and its rolling hills, plains, and lakes.",
+        "descr": "Switzerland is a breathtakingly beautiful land-locked country in Central Europe with France to the west, Italy to the south, Austria to the east and Germany to the north. The country is famous for its scenic Alps and its rolling hills, plains, and lakes.",
         "img": "https://sites.google.com/a/middleschoolkcd.org/switzerland-europe-project/_/rsrc/1456797182852/physical-geography/Swiss_Alps.jpg?height=300&width=400",
         "price": 450,
         "category": "snow"
     }, {
         "id": 7,
         "name": "thailand",
-        "descr":"Thailand has a rich cultural heritage, and tourists often visit the country to explore its ancient temples, palaces, and museums. Some of the most popular cultural attractions include the Grand Palace and Wat Phra Kaew in Bangkok, and the ancient city of Ayutthaya.",
+        "descr": "Thailand has a rich cultural heritage, and tourists often visit the country to explore its ancient temples, palaces, and museums. Some of the most popular cultural attractions include the Grand Palace and Wat Phra Kaew in Bangkok, and the ancient city of Ayutthaya.",
         "price": 250,
         "img": "https://static.toiimg.com/thumb/94176849.cms?resizemode=4&width=400",
         "category": "sea"
     }, {
         "id": 8,
         "name": "turkey",
-        "descr":"Turkey has 13 UNESCO World Heritage Sites. Cultural attractions include the sites of Ephesus, Troy, Pergamon, House of the Virgin Mary, Pamukkale, Hierapolis, Trabzon, and the ruined cities and landscapes of Cappadocia. Istanbul, Turkey's largest city, is one of the most famous cities in the world.",
+        "descr": "Turkey has 13 UNESCO World Heritage Sites. Cultural attractions include the sites of Ephesus, Troy, Pergamon, House of the Virgin Mary, Pamukkale, Hierapolis, Trabzon, and the ruined cities and landscapes of Cappadocia. Istanbul, Turkey's largest city, is one of the most famous cities in the world.",
         "img": "https://www.propertyturkey.com/uploads/pages/larg/buyukada_safe.jpg",
         "price": 1050,
         "category": "nature"
     }, {
         "id": 9,
         "name": "germany",
-        "descr":"A land of bewildering landscapes, quaint towns, teleporting castles, hipster alleys, and nap-inducing feasts, Germany has plenty to offer in addition to its decadent meat-filled platters and beer-filled jugs!",
+        "descr": "A land of bewildering landscapes, quaint towns, teleporting castles, hipster alleys, and nap-inducing feasts, Germany has plenty to offer in addition to its decadent meat-filled platters and beer-filled jugs!",
         "img": "https://spectrum.ieee.org/media-library/photo-of-a-village-with-windmills-in-the-background.jpg?id=25536224&width=400&height=300",
         "price": 450,
         "category": "nature"
     }, {
         "id": 10,
         "name": "china",
-        "descr":"An integral part of cultural tourism in China is ethno tourism. The country is inhabited with dozens of ethnos featuring their own national costumes, customs, cuisine and even languages. And although the Chinese themselves account for 93 percent of the country's total population, they differ province by province.",
+        "descr": "An integral part of cultural tourism in China is ethno tourism. The country is inhabited with dozens of ethnos featuring their own national costumes, customs, cuisine and even languages. And although the Chinese themselves account for 93 percent of the country's total population, they differ province by province.",
         "img": "https://digitalnomads.world/wp-content/uploads/2021/11/shanghai-digital-nomads-1024x683.jpg",
         "price": 2750,
         "category": "nature"
-    },
-    {
-        "id": 4,
-        "name": "australia",
-        "descr":"Popular Australian destinations include the coastal cities of Sydney, Brisbane and Melbourne, as well as other high-profile destinations including regional Queensland, the Gold Coast and the Great Barrier Reef, the world's largest reef.",
-        "img": "https://australiayourway.com/wp-content/uploads/2020/06/South-Port-Beach-boardwalk-at-sunset-Port-Noarlunga-South-Australia.jpg",
-        "price": 2550,
-        "category": "sea"
     }
 ]
