@@ -22,6 +22,7 @@ export default function Home() {
     // Move Page Top
     useEffect(()=>{
 window.scrollTo(0,0)
+document.title = 'HV-Travel'
     },[])
     // go to country page
     let navigate = useNavigate()

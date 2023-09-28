@@ -3,9 +3,16 @@ import '../styles/Contacts/contacts.css'
 import Sea from '../Photoes/contactsBg.webp'
 import backImg from '../Photoes/background2.webp'
 import { Contact_Values, conReducer } from '../components/ContactsReducer'
+import { useEffect } from 'react'
 
 export default function Contact() {
+  useEffect(()=>{
+    document.title = 'HV-Travel Contact Us'
+  },[])
+  // useReducer
 const [state, dispatch] = useReducer(conReducer,Contact_Values)
+
+// Create Person Form
   class Form {
     constructor(name,lastName,gmail,info){
       this.name = name

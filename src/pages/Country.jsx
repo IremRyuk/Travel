@@ -17,6 +17,7 @@ export default function Country() {
     // Jquery Hide Filter Box
     useEffect(()=>{
         $('.filter-search').hide()
+        document.title = 'HV-Travel Countries'
     },[])
     // useReducer
     const [state, dispatch] = useReducer(reudcer, Initial_Values)
