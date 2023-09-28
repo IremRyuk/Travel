@@ -48,8 +48,7 @@
         "price": 250,
         "img": "https://static.toiimg.com/thumb/94176849.cms?resizemode=4&width=400",
         "category": "sea"
-    }, 
-    {
+    }, {
         "id": 8,
         "name": "germany",
         "descr": "A land of bewildering landscapes, quaint towns, teleporting castles, hipster alleys, and nap-inducing feasts, Germany has plenty to offer in addition to its decadent meat-filled platters and beer-filled jugs!",
