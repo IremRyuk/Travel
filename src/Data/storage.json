@@ -48,22 +48,16 @@
         "price": 250,
         "img": "https://static.toiimg.com/thumb/94176849.cms?resizemode=4&width=400",
         "category": "sea"
-    }, {
+    }, 
+    {
         "id": 8,
-        "name": "turkey",
-        "descr": "Turkey has 13 UNESCO World Heritage Sites. Cultural attractions include the sites of Ephesus, Troy, Pergamon, House of the Virgin Mary, Pamukkale, Hierapolis, Trabzon, and the ruined cities and landscapes of Cappadocia. Istanbul, Turkey's largest city, is one of the most famous cities in the world.",
-        "img": "https://www.propertyturkey.com/uploads/pages/larg/buyukada_safe.jpg",
-        "price": 1050,
-        "category": "nature"
-    }, {
-        "id": 9,
         "name": "germany",
         "descr": "A land of bewildering landscapes, quaint towns, teleporting castles, hipster alleys, and nap-inducing feasts, Germany has plenty to offer in addition to its decadent meat-filled platters and beer-filled jugs!",
         "img": "https://spectrum.ieee.org/media-library/photo-of-a-village-with-windmills-in-the-background.jpg?id=25536224&width=400&height=300",
         "price": 450,
         "category": "nature"
     }, {
-        "id": 10,
+        "id": 9,
         "name": "china",
         "descr": "An integral part of cultural tourism in China is ethno tourism. The country is inhabited with dozens of ethnos featuring their own national costumes, customs, cuisine and even languages. And although the Chinese themselves account for 93 percent of the country's total population, they differ province by province.",
         "img": "https://digitalnomads.world/wp-content/uploads/2021/11/shanghai-digital-nomads-1024x683.jpg",
