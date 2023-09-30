@@ -6,10 +6,9 @@
 // main contact
 .contact {
     position: absolute;
-    top: 0;
+    top: 80px;
     left: 0;
     width: 100vw;
-    height: 100vh;
     z-index: 5;
     display: flex;
     justify-content: center;
@@ -19,7 +18,6 @@
     position: absolute;
     top: 15%;
     width: 90%;
-    height: min-content;
     text-align: center;
     backdrop-filter: blur(7px);
     display: flex;
@@ -29,7 +27,6 @@
 // form
 .contact-form {
     width: 40%;
-    height: 80%;
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -54,14 +51,15 @@
     transition: 0.2s;
     background: transparent;
     border: none;
-    border-bottom: 4px solid white;
+    border: 3px solid transparent;
+    border-bottom: 3px solid white;
     &:hover {
-        border: 4px solid aqua;
+        border: 3px solid aqua;
     }
     &:focus {
         outline: none;
         border: none;
-        border-left: 5px solid aqua;
+        border-left: 3px solid aqua;
     }
 }
 // textarea
